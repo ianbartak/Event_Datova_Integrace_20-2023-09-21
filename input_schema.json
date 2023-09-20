@@ -1,0 +1,86 @@
+[
+    {
+        "index":0,
+        "attribute name":"id",
+        "attribute description":"id of the record",
+        "rule":"Integer incrementaly increased by 1. Started with value 1",
+        "datatype": "integer"
+    },
+    {
+        "index":1,
+        "attribute name":"pos_id",
+        "attribute description":"id of the POS device",
+        "rule":"Random 3 capital letter plus random 9 number (text = '???#########')",
+        "datatype": "string"
+    },
+    {
+        "index":2,
+        "attribute name":"pos_type",
+        "attribute description":"type of the POS device",
+        "rule":"Random choice from following values: Ingenico, PAX, Verifone, Nixdorf",
+        "datatype": "category"
+    },
+    {
+        "index":3,
+        "attribute name":"address",
+        "attribute description":"address of the POS device",
+        "rule":"Random Czech address",
+        "datatype": "string"
+    },
+    {
+        "index":4,
+        "attribute name":"city",
+        "attribute description":"city where POS device is located",
+        "rule":"Random choice with following values: Praha, Brno, Ostrava, Plzeň, Liberec, random Czech city with weights [60,50,40,30,20,10]",
+        "datatype": "category"
+    },
+    {
+        "index":5,
+        "attribute name":"bban",
+        "attribute description":"Basic Bank Account number of the POS device",
+        "rule":"Random basic bank account ",
+        "datatype": "string"
+    },
+    {
+        "index":6,
+        "attribute name":"iban",
+        "attribute description":"International Bank account number of the POS device",
+        "rule":"Random international bank account",
+        "datatype": "string"
+    },
+    {
+        "index":7,
+        "attribute name":"merchant id",
+        "attribute description":"id of the Merchant which POS device is registered to",
+        "rule":"Random number with 9 digits",
+        "datatype": "integer"
+    },
+    {
+        "index":8,
+        "attribute name":"merchant name",
+        "attribute description":"name of the merchant which POS device is registered to",
+        "rule":"Random Czech company name",
+        "datatype": "string"
+    },
+    {
+        "index":9,
+        "attribute name":"merchant_fee",
+        "attribute description":"fee that merchant pays for every payment done via POS device",
+        "rule":"Random float between 0,2 and 0,3 with 2 digits precision",
+        "datatype": "float"
+    },
+    {
+        "index":10,
+        "attribute name":"registered_date",
+        "attribute description":"date when POS device was registered",
+        "rule":"Random date between 1990 and 2022 in yyyy-MM-dd format",
+        "datatype": "date"
+    },
+    {
+        "index":11,
+        "attribute name":"last_update_date",
+        "attribute description":"date of last update of the record",
+        "rule":"Random date between 2023 and now in yyyy-MM-dd format",
+        "datatype": "date"
+    }
+]

@@ -1,0 +1,13 @@
+index;attribute name;attribute description;rule;datatype
+0;id;id of the record;Integer incrementaly increased by 1. Started with value 1;integer
+1;pos_id;id of the POS device;Random 3 capital letter plus random 9 number (text = '???#########');string
+2;pos_type;type of the POS device;Random choice from following values: Ingenico, PAX, Verifone, Nixdorf;category
+3;address;address of the POS device;Random Czech address;string
+4;city;city where POS device is located;Random choice with following values: Praha, Brno, Ostrava, Plzeň, Liberec, random Czech city with weights [60,50,40,30,20,10];category
+5;bban;Basic Bank Account number of the POS device;Random basic bank account ;string
+6;iban;International Bank account number of the POS device;Random international bank account;string
+7;merchant id;id of the Merchant which POS device is registered to;Random number with 9 digits;integer
+8;merchant name;name of the merchant which POS device is registered to;Random Czech company name;string
+9;merchant_fee;fee that merchant pays for every payment done via POS device;Random float between 0,2 and 0,3 with 2 digits precision;float
+10;registered_date;date when POS device was registered;Random date between 1990 and 2022 in yyyy-MM-dd format;date
+11;last_update_date;date of last update of the record;Random date between 2023 and now in yyyy-MM-dd format;date

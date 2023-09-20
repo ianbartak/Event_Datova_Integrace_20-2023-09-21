@@ -1,0 +1,13 @@
+index;attribute name;attribute description;datatype
+0;ID;id of the record;INT
+1;POS_ID;id of the POS device;VARCHAR(9)
+2;POS_TYPE;type of the POS device;VARCHAR(255)
+3;ADDRESS;address of the POS device;VARCHAR(255)
+4;CITY;city where POS device is located;VARCHAR(255)
+5;BBAN;Basic Bank Account number of the POS device;VARCHAR(255)
+6;IBAN;International Bank account number of the POS device;VARCHAR(255)
+7;MERCHANT_ID;id of the Merchant which POS device is registered to;VARCHAR(9)
+8;MERCHANT_NAME;name of the merchant which POS device is registered to;VARCHAR(255)
+9;MERCHANT_FEE;fee that merchant pays for every payment done via POS device;FLOAT
+10;REGISTERED_DATE;date when POS device was registered;DATE
+11;LAST_UPDATE_DATE;date of last update of the record;DATE

@@ -1,0 +1,85 @@
+
+    {
+        "index":0,
+        "attribute name":"ID",
+        "attribute description":"id of the record",
+        "datatype":"INT"
+    }
+
+    {
+        "index":1,
+        "attribute name":"POS_ID",
+        "attribute description":"id of the POS device",
+        "datatype":"VARCHAR(9)"
+    }
+
+    {
+        "index":2,
+        "attribute name":"POS_TYPE",
+        "attribute description":"type of the POS device",
+        "datatype":"VARCHAR(255)"
+    }
+
+    {
+        "index":3,
+        "attribute name":"ADDRESS",
+        "attribute description":"address of the POS device",
+        "datatype":"VARCHAR(255)"
+    }
+
+    {
+        "index":4,
+        "attribute name":"CITY",
+        "attribute description":"city where POS device is located",
+        "datatype":"VARCHAR(255)"
+    }
+
+    {
+        "index":5,
+        "attribute name":"BBAN",
+        "attribute description":"Basic Bank Account number of the POS device",
+        "datatype":"VARCHAR(255)"
+    }
+
+    {
+        "index":6,
+        "attribute name":"IBAN",
+        "attribute description":"International Bank account number of the POS device",
+        "datatype":"VARCHAR(255)"
+    }
+
+    {
+        "index":7,
+        "attribute name":"MERCHANT_ID",
+        "attribute description":"id of the Merchant which POS device is registered to",
+        "datatype":"VARCHAR(9)"
+    }
+
+    {
+        "index":8,
+        "attribute name":"MERCHANT_NAME",
+        "attribute description":"name of the merchant which POS device is registered to",
+        "datatype":"VARCHAR(255)"
+    }
+
+    {
+        "index":9,
+        "attribute name":"MERCHANT_FEE",
+        "attribute description":"fee that merchant pays for every payment done via POS device",
+        "datatype":"FLOAT"
+    }
+
+    {
+        "index":10,
+        "attribute name":"REGISTERED_DATE",
+        "attribute description":"date when POS device was registered",
+        "datatype":"DATE"
+    }
+
+    {
+        "index":11,
+        "attribute name":"LAST_UPDATE_DATE",
+        "attribute description":"date of last update of the record",
+        "datatype":"DATE"
+    }
+

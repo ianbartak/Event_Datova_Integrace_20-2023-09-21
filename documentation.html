@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>POS Device Documentation</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>POS Device Documentation</h1>
+    <table>
+        <tr>
+            <th>Index</th>
+            <th>Attribute Name</th>
+            <th>Attribute Description</th>
+            <th>Data Type</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>ID</td>
+            <td>id of the record</td>
+            <td>INT</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>POS_ID</td>
+            <td>id of the POS device</td>
+            <td>VARCHAR(9)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>POS_TYPE</td>
+            <td>type of the POS device</td>
+            <td>VARCHAR(255)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>ADDRESS</td>
+            <td>address of the POS device</td>
+            <td>VARCHAR(255)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>CITY</td>
+            <td>city where POS device is located</td>
+            <td>VARCHAR(255)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>BBAN</td>
+            <td>Basic Bank Account number of the POS device</td>
+            <td>VARCHAR(255)</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>IBAN</td>
+            <td>International Bank account number of the POS device</td>
+            <td>VARCHAR(255)</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>MERCHANT_ID</td>
+            <td>id of the Merchant which POS device is registered to</td>
+            <td>VARCHAR(9)</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>MERCHANT_NAME</td>
+            <td>name of the merchant which POS device is registered to</td>
+            <td>VARCHAR(255)</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>MERCHANT_FEE</td>
+            <td>fee that merchant pays for every payment done via POS device</td>
+            <td>FLOAT</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>REGISTERED_DATE</td>
+            <td>date when POS device was registered</td>
+            <td>DATE</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>LAST_UPDATE_DATE</td>
+            <td>date of last update of the record</td>
+            <td>DATE</td>
+        </tr>
+    </table>
+</body>
+</html>
