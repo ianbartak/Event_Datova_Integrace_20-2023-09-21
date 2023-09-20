@@ -1,8 +1,8 @@
 # Event_Datova_Integrace_20-2023-09-21
-## Demo pro účastníky události Datová Integrace 2.0: Odemkněte potenciál pro zvýšení vaší produktivity
+## Demo pro účastníky události Datová Integrace 2.0: <br />Odemkněte potenciál pro zvýšení vaší produktivity
 
 ### Seznam souborů
-- **chatgpt_demo.ipynb**: Jupyter Notebook s ukázky, jak GPT modely pro úlohy spojené s datovou integrací.
+- **chatgpt_demo.ipynb**: Jupyter Notebook s ukázky, jak použít OpenAI API a GPT modely pro úlohy spojené s datovou integrací.
 - **db_input.csv**: Input pro generování DBML dokumentace v csv formátu.
 - **db_input.json**: Input pro generování DBML dokumentace v json formátu.
 - **dbdiagram.io.url**: Odkaz na tool, který umí generovat DB diagramy na základě DBML.
