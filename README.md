@@ -1,6 +1,5 @@
 # Event_Datova_Integrace_20-2023-09-21
-## Demo pro účastníky události Datová Integrace 2.0: <br />
-## Odemkněte potenciál pro zvýšení vaší produktivity
+Demo pro účastníky události Datová Integrace 2.0: Odemkněte potenciál pro zvýšení vaší produktivity
 
 ### Seznam souborů
 - **chatgpt_demo.ipynb**: Jupyter Notebook s ukázky, jak použít OpenAI API a GPT modely pro úlohy spojené s datovou integrací.
